@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 
 var bot = new Discord.Client();
 var prefix = ("//");
+const app = express();
 
 //DEBUT PARAGRAPHE HEROKU
 app.set('port', (process.env.PORT || 5000))
