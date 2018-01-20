@@ -3,6 +3,14 @@ const Discord = require('discord.js');
 var bot = new Discord.Client();
 var prefix = ("//");
 
+//DEBUT PARAGRAPHE HEROKU
+app.set('port', (process.env.PORT || 5000))
+
+app.listen(app.get('port'), function(){
+    console.log(`bot en fonctionnement sur le port ${app.get('port')}`)
+})
+
+
 bot.on('ready', () => {
     bot.user.setPresence({game: { name: 'Faire des Embends pour les serveurs discords, merci de ne pas toucher à mes commandes', type: 0}})
     console.log("Bot Ready !");
