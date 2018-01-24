@@ -21,6 +21,8 @@ bot.on('ready', () => {
 bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
+    
+    if ( message.author.id === '292263751372242944' ){
 
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
@@ -426,4 +428,4 @@ bot.on('message', message => {
         console.log("Commande Équipe-StaffEntreprise3 demandée !");
     }
 
-});
+}});
