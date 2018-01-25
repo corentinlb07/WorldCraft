@@ -371,6 +371,15 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
         message.channel.send(help_embed);
         console.log("Comande Annonce18 demandée !");
     }
+    
+    if (message.content === prefix + "annonce19"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor('#38e66a')
+        .addField("**[MISE À JOUR]**", "*Ajout d'un compte Instagram pour WorldCraft !\n\n worldcraftoffi*")
+        .setFooter("Cordialement, WorldCraftBot")
+        message.channel.send(help_embed);
+        console.log("Commande Annonce18 demandée !");
+    }
 
 
     if (message.content === prefix + "eventjeu"){
