@@ -376,9 +376,33 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
         var help_embed = new Discord.RichEmbed()
         .setColor('#38e66a')
         .addField("**[MISE À JOUR]**", "*Ajout d'un compte Instagram pour WorldCraft !\n\n worldcraftoffi*")
-        .setFooter("Cordialement, WorldCraftBot")
         message.channel.send(help_embed);
-        console.log("Commande Annonce18 demandée !");
+        console.log("Commande Annonce19 demandée !");
+    }
+    
+    if (message.content === prefix + "annonce20"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor('#38e66a')
+        .addField("**[MISE À JOUR]**", "*J'ai créer un serveur de BackUp si jamais ce serveur venait à se faire hack.\nVoilà le lien : <https://discord.gg/YHSHP5Q>*")
+        message.channel.send(help_embed);
+        console.log("Commande Annonce20 demandée !");
+    }
+    
+    if (message.content === prefix + "annonce21"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor('#38e66a')
+        .addField("**[MISE À JOUR]**", "*Bonjour, nous avons le plaisir de vous dire que **WorldCraft [FR]** à une Entreprise voici le lien :  <https://discord.gg/9tZJA4C>*")
+        message.channel.send(help_embed);
+        console.log("Commande Annonce21 demandée !");
+    }
+    
+    if (message.content === prefix + "annonce22"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor('#38e66a')
+        .addField("**[ANNONCE]**", "Pour le grade YouTubeurs, demander à <@372414268022456324>, si vous avez plus de 100abonnés.")
+        .setFooter("Cordialement, Keirua")
+        message.channel.send(help_embed);
+        console.log("Commande Annonce22 demandée !");
     }
 
 
