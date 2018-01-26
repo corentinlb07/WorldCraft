@@ -14,7 +14,7 @@ app.listen(app.get('port'), function(){
 
 
 bot.on('ready', () => {
-    bot.user.setPresence({game: { name: 'Faire des Embends pour les serveurs discords, merci de ne pas toucher à mes commandes', type: 0}})
+    bot.user.setPresence({game: { name: 'Faire des Embeds pour les serveurs discords, merci de ne pas toucher à mes commandes', type: 0}})
     console.log("Bot Ready !");
 });
 
