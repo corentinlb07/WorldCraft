@@ -126,6 +126,16 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
         message.channel.send(help_embed);
         console.log("Comande AttentePro demandée !");
     }
+    
+    if (message.content === prefix + "attentemc"){
+        var help_embed= new Discord.RichEmbed()
+        .setColor('#60bfff')
+        .addField('**:white_small_square: __Bienvenue sur le WorldCraftPro [FR]!__**', `Sachant que mon serveur Discord **WorldCraft : Serveur Privé** est privé, Vous devez postuler ici : <https://goo.gl/forms/0y75RjrAfan61cEH2> pour avoir un grade de votre Team, votre team vous la choisirez plus tard, attendre que je vous attribue un grade pour pouvoir profiter pleinement de mon serveur, si vous êtes kick, cela signifie que vous n'êtes pas prit sur notre serveur.`,true)
+        .setThumbnail(`https://media.discordapp.net/icons/339490139933769729/cbb2f2bd949497d81eeeeb43cab5a06b.jpg`)
+        new Discord.RichEmbed()
+        message.channel.send(help_embed);
+        console.log("Comande AttentePro demandée !");
+    }
 
     
 
