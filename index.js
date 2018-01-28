@@ -32,6 +32,15 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
         message.channel.send(help_embed);
         console.log("Commande Help demandée !");
     }
+    
+    if (message.content === prefix + "helpmp"){
+        var help_embed = new Discord.RichEmbed()
+        .setColor('#D9F200')
+        .addField("Commandes du bot !", " - //help : Affiche les commandes du bot !\n- //reglement : Affiche les commandes pour le règlement !\n- //attentepro : Pour l'attente sur le serveur WorldCraftPro !\n- //équipe-staff : Affiche les commandes pour l'Équipe du Staff !\n- //annonce : Affiche les commandes pour les annonces !")
+        .setFooter("Cordialement, WorldCraftBot")
+        message.author.send(help_embed);
+        console.log("Commande Help demandée !");
+    }
 
     if (message.content === prefix + "reglement"){
         var help_embed = new Discord.RichEmbed()
