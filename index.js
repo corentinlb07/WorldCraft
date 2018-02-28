@@ -109,7 +109,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "reglement6"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#60bfff')
-        .addField(':globe_with_meridians:   **__~ Les règles concernant la publicité Vocale ou Textuelle ~__**',`- La publicité est autorisé dans <#374546816164954112> à partir du niveau 1 avec <@159985870458322944>.\n- Tout plublicité posé dans un autre salon ou dit en vocal sera sanctionné d'un Ban définitif.`,true)
+        .addField(':globe_with_meridians:   **__~ Les règles concernant la publicité Vocale ou Textuelle ~__**',`- La publicité est autorisé dans <#374546816164954112> à partir du niveau 5 avec <@159985870458322944>.\n- Tout plublicité posé dans un autre salon ou dit en vocal sera sanctionné d'un Ban définitif.`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Règlement6 demandée !");
