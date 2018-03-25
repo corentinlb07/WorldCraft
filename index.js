@@ -151,7 +151,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff2"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#60bfff')
-        .addField('**Fondateurs:**',`*Il est le fondateur du serveur. Il détient tous les droits et c’est à lui que revient de prendre des décisions importantes !*\n\n- <@292263751372242944>\n- <@394255380940849153> *> (Son deuxième compte)*`,true)
+        .addField('**Fondateurs:**',`*Il est le fondateur du serveur. Il détient tous les droits et c’est à lui que revient de prendre des décisions importantes !*\n\n- <@292263751372242944>\n- <@422394747630518292> *> (Son deuxième compte)*`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff2 demandée !");
@@ -160,7 +160,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff3"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#007dce')
-        .addField('**Co-Fondateurs:**',`*Ils s'occupent du serveur et sont avec Corentin, ils l'aident !*\n\n- <@335118921088630796>\n- <@270265203269042188>\n- <@283625708863881216>\n- <@344061192903327744>\n- <@205752580251451392>`,true)
+        .addField('**Co-Fondateurs:**',`*Ils s'occupent du serveur et sont avec Corentin, ils l'aident !*\n\n- <@335118921088630796>\n- <@270265203269042188>\n- <@344061192903327744>\n- <@205752580251451392>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff3 demandée !");
@@ -169,7 +169,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff4"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#ff0000')
-        .addField('**Administrateurs:**', `*L'Administrateur est la personnes qui gère le serveur et s'occupe du serveur avec le Fondateur et les Co-Fondateurs !*\n\n- <@312629594354352129>\n- <@298052342597812226>\n- <@337162749002121216>\n- <@275283236169711616>`,true)
+        .addField('**Administrateurs:**', `*L'Administrateur est la personnes qui gère le serveur et s'occupe du serveur avec le Fondateur et les Co-Fondateurs !*\n\n- <@312629594354352129>\n- <@298052342597812226>\n- <@337162749002121216>\n- <@372414268022456324>\n- <@275283236169711616>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff4 demandée !");
@@ -178,7 +178,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff5"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#ff0058')
-        .addField('**Super-Modérateurs:**', `*Le Super Modérateur a tout comme les Administrateurs sauf qu'il n'est pas Administrateur, il aide tout le monde, et gère un peu !*\n\n- <@289098800784736257>\n- <@372414268022456324>`,true)
+        .addField('**Super-Modérateurs:**', `*Le Super Modérateur a tout comme les Administrateurs sauf qu'il n'est pas Administrateur, il aide tout le monde, et gère un peu !*\n\n- <@289098800784736257>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff5 demandée !");
@@ -187,7 +187,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff6"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#ff0058')
-        .addField('**Modérateurs:**', `*Le Modérateur veille au bon fonctionnement du serveur en faisant appliquer le règlement aux membres. Il repère les infractions au règlement et sanctionne !*\n\n- <@346245733671895040>\n- <@403152726940319744>`,true)
+        .addField('**Modérateurs:**', `*Le Modérateur veille au bon fonctionnement du serveur en faisant appliquer le règlement aux membres. Il repère les infractions au règlement et sanctionne !*\n\n- <@416286635811143700>\n- <@346245733671895040>\n- <@403152726940319744>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff6 demandée !");
@@ -196,7 +196,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff7"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#35d428')
-        .addField('**Helpers:**', `*L'Helper est la personne qui aide les nouveaux qui arrivent et qui les accueils !*\n\n- <@298516167243333632>\n- <@361872765273374722>\n- <@376808906577412099>`,true)
+        .addField('**Helpers:**', `*L'Helper est la personne qui aide les nouveaux qui arrivent et qui les accueils !*\n\n- <@298516167243333632>\n- <@361872765273374722>\n- <@413418565211914240>\n- <@376808906577412099>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff7 demandée !");
@@ -214,7 +214,7 @@ if ( message.author.id === '292263751372242944' ||  message.author.id === '33511
     if (message.content === prefix + "équipe-staff9"){
         var help_embed= new Discord.RichEmbed()
         .setColor('#6f1600')
-        .addField('**Informaticiens:**', `Un informaticien doit être fort dans l'informatique pour pouvoir avancez avec les bots !\n\n- <@321030467891494913>\n- <@380410660309434370>\n- <@217693319814316034>\n- <@283144121718276096>\n- <@287583441585700865>`,true)
+        .addField('**Informaticiens:**', `Un informaticien doit être fort dans l'informatique pour pouvoir avancez avec les bots !\n\n- <@137884686964883457>\n- <@321030467891494913>\n- <@380410660309434370>\n- <@217693319814316034>\n- <@283144121718276096>\n- <@252849992639709184>\n- <@287583441585700865>`,true)
         new Discord.RichEmbed()
         message.channel.send(help_embed);
         console.log("Commande Équipe-Staff9 demandée !");
